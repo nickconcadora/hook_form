@@ -32,6 +32,7 @@ const UserForm = (props) => {
                 <input type="password" className="form-control" id="formGroupExampleInput" onChange = { (e) => setconfPassword(e.target.value)}/>
             </div>
         </form>
+        <h2>Your Form Data</h2>
         <div className="col-5 mx-auto">
             <h4 className="card-title">{firstName}</h4>
             <h4 className="card-title">{lastName}</h4>
